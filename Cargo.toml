@@ -44,3 +44,7 @@ chrono = { version = "0.4", features = ["serde"] }
 
 validator = { version = "0.16", features = ["derive"] }
 # Input validation with derive macros
+
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres", "uuid", "chrono", "json"] }
+anyhow = "1.0"
+thiserror = "1.0"
